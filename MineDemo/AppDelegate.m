@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "TLMineViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    TLMineViewController *mineVC = [[TLMineViewController alloc] init];
+    UINavigationController *mineNavi = [[UINavigationController alloc] initWithRootViewController:mineVC];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window setRootViewController:mineNavi];
+    [self.window addSubview:mineNavi.view];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE6D169821AE21BC00A42E73 /* AccountSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6D169721AE21BC00A42E73 /* AccountSetViewController.m */; };
 		EEC7B43821AD109A006C413A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC7B43721AD109A006C413A /* AppDelegate.m */; };
 		EEC7B43B21AD109A006C413A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC7B43A21AD109A006C413A /* ViewController.m */; };
 		EEC7B43E21AD109A006C413A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC7B43C21AD109A006C413A /* Main.storyboard */; };
@@ -15,6 +16,26 @@
 		EEC7B44621AD109A006C413A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC7B44521AD109A006C413A /* main.m */; };
 		EEC7B45021AD109A006C413A /* MineDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC7B44F21AD109A006C413A /* MineDemoTests.m */; };
 		EEC7B45B21AD109A006C413A /* MineDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC7B45A21AD109A006C413A /* MineDemoUITests.m */; };
+		EEC7B46B21AD10FE006C413A /* TLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC7B46A21AD10FE006C413A /* TLMineViewController.m */; };
+		EEC7B46E21AD115D006C413A /* CommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC7B46C21AD115D006C413A /* CommonTableViewController.m */; };
+		EEC7B47121AD11FB006C413A /* TLFounctionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC7B46F21AD11FA006C413A /* TLFounctionCell.m */; };
+		EEC7B47421AD122E006C413A /* TLUserDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC7B47321AD122E006C413A /* TLUserDetailCell.m */; };
+		EEC7B47721AD1277006C413A /* CommonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC7B47521AD1276006C413A /* CommonTableViewCell.m */; };
+		EEC7B47A21AD131F006C413A /* TLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC7B47921AD131F006C413A /* TLUser.m */; };
+		EEC7B47D21AD13A7006C413A /* UIView+TL.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC7B47C21AD13A7006C413A /* UIView+TL.m */; };
+		EEC7B48021AD14A5006C413A /* NSString+TL.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC7B47F21AD14A5006C413A /* NSString+TL.m */; };
+		EECA3F1621AD3A1A00AEF2B7 /* 遥控器设置@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EECA3F0921AD3A1900AEF2B7 /* 遥控器设置@3x.png */; };
+		EECA3F1721AD3A1A00AEF2B7 /* 遥控器设置@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EECA3F0A21AD3A1900AEF2B7 /* 遥控器设置@2x.png */; };
+		EECA3F1821AD3A1A00AEF2B7 /* 网络设置@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EECA3F0B21AD3A1900AEF2B7 /* 网络设置@2x.png */; };
+		EECA3F1921AD3A1A00AEF2B7 /* 网络设置@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EECA3F0C21AD3A1900AEF2B7 /* 网络设置@3x.png */; };
+		EECA3F1A21AD3A1A00AEF2B7 /* 10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EECA3F0E21AD3A1900AEF2B7 /* 10.jpeg */; };
+		EECA3F1B21AD3A1A00AEF2B7 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EECA3F0F21AD3A1900AEF2B7 /* 8.jpg */; };
+		EECA3F1C21AD3A1A00AEF2B7 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EECA3F1021AD3A1900AEF2B7 /* 12.jpg */; };
+		EECA3F1D21AD3A1A00AEF2B7 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EECA3F1121AD3A1900AEF2B7 /* 11.jpg */; };
+		EECA3F1E21AD3A1A00AEF2B7 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EECA3F1221AD3A1900AEF2B7 /* 4.jpg */; };
+		EECA3F1F21AD3A1A00AEF2B7 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EECA3F1321AD3A1900AEF2B7 /* 7.jpg */; };
+		EECA3F2021AD3A1A00AEF2B7 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EECA3F1421AD3A1900AEF2B7 /* 2.jpg */; };
+		EECA3F2121AD3A1A00AEF2B7 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EECA3F1521AD3A1900AEF2B7 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE6D169621AE21BC00A42E73 /* AccountSetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountSetViewController.h; sourceTree = "<group>"; };
+		EE6D169721AE21BC00A42E73 /* AccountSetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountSetViewController.m; sourceTree = "<group>"; };
 		EEC7B43321AD109A006C413A /* MineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC7B43621AD109A006C413A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EEC7B43721AD109A006C413A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +74,34 @@
 		EEC7B45621AD109A006C413A /* MineDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC7B45A21AD109A006C413A /* MineDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineDemoUITests.m; sourceTree = "<group>"; };
 		EEC7B45C21AD109B006C413A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEC7B46921AD10FE006C413A /* TLMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMineViewController.h; sourceTree = "<group>"; };
+		EEC7B46A21AD10FE006C413A /* TLMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMineViewController.m; sourceTree = "<group>"; };
+		EEC7B46C21AD115D006C413A /* CommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableViewController.m; sourceTree = "<group>"; };
+		EEC7B46D21AD115D006C413A /* CommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTableViewController.h; sourceTree = "<group>"; };
+		EEC7B46F21AD11FA006C413A /* TLFounctionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLFounctionCell.m; sourceTree = "<group>"; };
+		EEC7B47021AD11FA006C413A /* TLFounctionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLFounctionCell.h; sourceTree = "<group>"; };
+		EEC7B47221AD122D006C413A /* TLUserDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLUserDetailCell.h; sourceTree = "<group>"; };
+		EEC7B47321AD122E006C413A /* TLUserDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLUserDetailCell.m; sourceTree = "<group>"; };
+		EEC7B47521AD1276006C413A /* CommonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableViewCell.m; sourceTree = "<group>"; };
+		EEC7B47621AD1277006C413A /* CommonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTableViewCell.h; sourceTree = "<group>"; };
+		EEC7B47821AD131F006C413A /* TLUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLUser.h; sourceTree = "<group>"; };
+		EEC7B47921AD131F006C413A /* TLUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLUser.m; sourceTree = "<group>"; };
+		EEC7B47B21AD13A6006C413A /* UIView+TL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TL.h"; sourceTree = "<group>"; };
+		EEC7B47C21AD13A7006C413A /* UIView+TL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TL.m"; sourceTree = "<group>"; };
+		EEC7B47E21AD14A5006C413A /* NSString+TL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TL.h"; sourceTree = "<group>"; };
+		EEC7B47F21AD14A5006C413A /* NSString+TL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TL.m"; sourceTree = "<group>"; };
+		EECA3F0921AD3A1900AEF2B7 /* 遥控器设置@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "遥控器设置@3x.png"; sourceTree = "<group>"; };
+		EECA3F0A21AD3A1900AEF2B7 /* 遥控器设置@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "遥控器设置@2x.png"; sourceTree = "<group>"; };
+		EECA3F0B21AD3A1900AEF2B7 /* 网络设置@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "网络设置@2x.png"; sourceTree = "<group>"; };
+		EECA3F0C21AD3A1900AEF2B7 /* 网络设置@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "网络设置@3x.png"; sourceTree = "<group>"; };
+		EECA3F0E21AD3A1900AEF2B7 /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpeg; sourceTree = "<group>"; };
+		EECA3F0F21AD3A1900AEF2B7 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		EECA3F1021AD3A1900AEF2B7 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		EECA3F1121AD3A1900AEF2B7 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		EECA3F1221AD3A1900AEF2B7 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		EECA3F1321AD3A1900AEF2B7 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		EECA3F1421AD3A1900AEF2B7 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		EECA3F1521AD3A1900AEF2B7 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +129,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE6D169521AE219800A42E73 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE6D169621AE21BC00A42E73 /* AccountSetViewController.h */,
+				EE6D169721AE21BC00A42E73 /* AccountSetViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		EEC7B42A21AD109A006C413A = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +161,8 @@
 		EEC7B43521AD109A006C413A /* MineDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EE6D169521AE219800A42E73 /* Controller */,
+				EECA3F0821AD3A1900AEF2B7 /* Resource */,
 				EEC7B46821AD10C7006C413A /* Mine */,
 				EEC7B43621AD109A006C413A /* AppDelegate.h */,
 				EEC7B43721AD109A006C413A /* AppDelegate.m */,
@@ -136,8 +198,51 @@
 		EEC7B46821AD10C7006C413A /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				EEC7B47E21AD14A5006C413A /* NSString+TL.h */,
+				EEC7B47F21AD14A5006C413A /* NSString+TL.m */,
+				EEC7B47B21AD13A6006C413A /* UIView+TL.h */,
+				EEC7B47C21AD13A7006C413A /* UIView+TL.m */,
+				EEC7B47821AD131F006C413A /* TLUser.h */,
+				EEC7B47921AD131F006C413A /* TLUser.m */,
+				EEC7B47621AD1277006C413A /* CommonTableViewCell.h */,
+				EEC7B47521AD1276006C413A /* CommonTableViewCell.m */,
+				EEC7B47221AD122D006C413A /* TLUserDetailCell.h */,
+				EEC7B47321AD122E006C413A /* TLUserDetailCell.m */,
+				EEC7B47021AD11FA006C413A /* TLFounctionCell.h */,
+				EEC7B46F21AD11FA006C413A /* TLFounctionCell.m */,
+				EEC7B46D21AD115D006C413A /* CommonTableViewController.h */,
+				EEC7B46C21AD115D006C413A /* CommonTableViewController.m */,
+				EEC7B46921AD10FE006C413A /* TLMineViewController.h */,
+				EEC7B46A21AD10FE006C413A /* TLMineViewController.m */,
 			);
 			path = Mine;
+			sourceTree = "<group>";
+		};
+		EECA3F0821AD3A1900AEF2B7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EECA3F0921AD3A1900AEF2B7 /* 遥控器设置@3x.png */,
+				EECA3F0A21AD3A1900AEF2B7 /* 遥控器设置@2x.png */,
+				EECA3F0B21AD3A1900AEF2B7 /* 网络设置@2x.png */,
+				EECA3F0C21AD3A1900AEF2B7 /* 网络设置@3x.png */,
+				EECA3F0D21AD3A1900AEF2B7 /* images@2x */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EECA3F0D21AD3A1900AEF2B7 /* images@2x */ = {
+			isa = PBXGroup;
+			children = (
+				EECA3F0E21AD3A1900AEF2B7 /* 10.jpeg */,
+				EECA3F0F21AD3A1900AEF2B7 /* 8.jpg */,
+				EECA3F1021AD3A1900AEF2B7 /* 12.jpg */,
+				EECA3F1121AD3A1900AEF2B7 /* 11.jpg */,
+				EECA3F1221AD3A1900AEF2B7 /* 4.jpg */,
+				EECA3F1321AD3A1900AEF2B7 /* 7.jpg */,
+				EECA3F1421AD3A1900AEF2B7 /* 2.jpg */,
+				EECA3F1521AD3A1900AEF2B7 /* 1.jpg */,
+			);
+			path = "images@2x";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +351,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EECA3F1E21AD3A1A00AEF2B7 /* 4.jpg in Resources */,
+				EECA3F1D21AD3A1A00AEF2B7 /* 11.jpg in Resources */,
+				EECA3F2021AD3A1A00AEF2B7 /* 2.jpg in Resources */,
+				EECA3F1C21AD3A1A00AEF2B7 /* 12.jpg in Resources */,
 				EEC7B44321AD109A006C413A /* LaunchScreen.storyboard in Resources */,
+				EECA3F1921AD3A1A00AEF2B7 /* 网络设置@3x.png in Resources */,
+				EECA3F1721AD3A1A00AEF2B7 /* 遥控器设置@2x.png in Resources */,
+				EECA3F1B21AD3A1A00AEF2B7 /* 8.jpg in Resources */,
 				EEC7B44021AD109A006C413A /* Assets.xcassets in Resources */,
+				EECA3F2121AD3A1A00AEF2B7 /* 1.jpg in Resources */,
+				EECA3F1A21AD3A1A00AEF2B7 /* 10.jpeg in Resources */,
+				EECA3F1621AD3A1A00AEF2B7 /* 遥控器设置@3x.png in Resources */,
+				EECA3F1F21AD3A1A00AEF2B7 /* 7.jpg in Resources */,
 				EEC7B43E21AD109A006C413A /* Main.storyboard in Resources */,
+				EECA3F1821AD3A1A00AEF2B7 /* 网络设置@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +391,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEC7B43B21AD109A006C413A /* ViewController.m in Sources */,
+				EEC7B46B21AD10FE006C413A /* TLMineViewController.m in Sources */,
+				EEC7B47421AD122E006C413A /* TLUserDetailCell.m in Sources */,
+				EEC7B48021AD14A5006C413A /* NSString+TL.m in Sources */,
+				EEC7B46E21AD115D006C413A /* CommonTableViewController.m in Sources */,
+				EE6D169821AE21BC00A42E73 /* AccountSetViewController.m in Sources */,
+				EEC7B47721AD1277006C413A /* CommonTableViewCell.m in Sources */,
 				EEC7B44621AD109A006C413A /* main.m in Sources */,
+				EEC7B47D21AD13A7006C413A /* UIView+TL.m in Sources */,
 				EEC7B43821AD109A006C413A /* AppDelegate.m in Sources */,
+				EEC7B47A21AD131F006C413A /* TLUser.m in Sources */,
+				EEC7B47121AD11FB006C413A /* TLFounctionCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
